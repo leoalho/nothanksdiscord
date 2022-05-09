@@ -3,7 +3,7 @@ from discord.ext import commands
 from discord_components import DiscordComponents, Button, ButtonStyle
 import random
 
-client = commands.Bot(command_prefix="!")
+client = commands.Bot(command_prefix="!") #Defines the prefix for the bot commands
 DiscordComponents(client)
 
 client = commands.Bot(command_prefix="!")
@@ -171,4 +171,4 @@ class Player:
         return self.score_cards() - self.tokens
 
 
-client.run("OTQ2MTI0MDA2MjY2OTA0NjM3.YhaIpQ.jlwIYoA06qzwEk80epqiMtbwq5Y")
+client.run("") #Your key here
